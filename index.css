@@ -26,7 +26,7 @@ body {
     top: 70%;
     left: 55%;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     opacity: 0.996;
     display: none;
 }
@@ -50,7 +50,7 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     opacity: 0.996;
     display: none;
 }
@@ -74,7 +74,7 @@ body {
     left: 80%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     opacity: 0.996;
     display: none;
 }
@@ -99,11 +99,17 @@ a {
     align-content: center;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 /* Info page */
 #infoPageHeader p{
+    color: white;
+    animation: type 2s steps(30, end); 
+    top: 3%;
+}
+
+#infoPageHeader {
     color: white;
     animation: type 2s steps(30, end); 
     top: 3%;
@@ -121,10 +127,14 @@ a {
     color: #ffffff; 
     position: relative;
     float: none;
-    width:  20vw;
-    height: 20vw;
+    width:  10vw;
+    height: 10vw;
     align-content: center;
     opacity: 0.8;
+}
+
+p1 {
+    color: white;
 }
 
 
@@ -144,7 +154,7 @@ p{
     width: 30em;
     animation: type 4s steps(47, end); 
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 1.9vw;
 }
 
 p:nth-child(2){
